@@ -7,7 +7,7 @@ let areaSize;
 let colorChoice = "red";
 
 function drawGrid(sizeInput){
-    areaSize = 960;
+    areaSize = 640;
     for (let i = 0; i < sizeInput; i++){
         divRow[i] = document.createElement("div");
         divRow[i].setAttribute("class", "row");
